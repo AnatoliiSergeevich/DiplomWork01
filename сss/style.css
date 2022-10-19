@@ -174,13 +174,10 @@ body{
 
 .fon img{
    position:absolute;
-
    bottom: 0px;
    right: -170px;
    width: 990px;
    height: 820px;
-   
-   
 }
 .fon{
    flex-basis: calc(990px);
