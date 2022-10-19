@@ -28,7 +28,7 @@ body{
    gap: 91px;
 }
 .header-logo{
-   background-image: url(/img/logo.svg);
+   background-image: url(../img/logo.svg);
    background-repeat: no-repeat;
    background-size: cover;
    display: block;
@@ -80,16 +80,6 @@ body{
 }
 
 
-
-
-
-
-
-
-
-
-
-
 /*  */
 
 
@@ -98,7 +88,6 @@ body{
    max-width: 1141px;
    margin: 0 auto;
    margin-bottom: 162px;
-
 }
 
 .wrapper{
@@ -207,10 +196,6 @@ body{
 .arrow-link{
    transition: 0.4s;
 }
-
-
-
-
 
 /* Grid */
 .menu{
@@ -462,9 +447,6 @@ gap: 20px;
    padding-bottom: 15px;
    
 }
-.form-group{
-   
-}
 input{
    width: 330px;
    padding: 22px 20px;
@@ -485,7 +467,6 @@ input{
    text-transform: uppercase;
    color: #2B3541;
    padding: 20px 43px;
-   
    text-decoration: none;
    
 }
@@ -502,9 +483,8 @@ input{
    font-weight: 400;
    font-size: 11px;
    
-   
 }
-label a{
+.agreement a{
    color: #2B3541
 }
 
@@ -697,12 +677,15 @@ label a{
    gap: 75px;
    justify-content: space-between;
 }
-.header-logo{
-   background-image: url(/img/logo.svg);
+.footer-logo{
+   background-image: url(../img/logo.svg);
    align-items: center;
    max-width: 300px;
-   padding: 0;
-   margin: 0;
+   display: block;
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 97px;
+   height: 30px;
 }
 .footer-nav{
    list-style-type: none;
@@ -722,7 +705,6 @@ label a{
 .footer-nav a:hover{
    border-bottom: 1px solid #2B3541;
 }
-
 
 .footer-info{
    display: flex;
