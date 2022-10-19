@@ -1,0 +1,794 @@
+
+body{
+   font-family: 'Montserrat', sans-serif;
+}
+
+
+.container {
+   max-width: 1141px;
+   margin: 0 auto;
+   padding-left: 15px;
+   padding-right: 15px;
+   
+   
+}
+.header{
+   max-width: 1141px;
+   display: flex;
+   padding-top: 50px;
+   padding-bottom: 22px;
+   justify-content: space-between;
+   align-items: center;
+   
+}
+.header-item{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 91px;
+}
+.header-logo{
+   background-image: url(/img/logo.svg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: block;
+   width: 97px;
+   height: 30px;
+   margin-right: 92px;
+}
+.header-nav{
+   display: flex;
+   list-style-type: none;
+   gap: 54px;
+   padding: 0;
+   
+}
+.header-nav a{
+   font-weight: 400;
+   font-size: 18px;
+   color: #2B3541;
+   text-decoration: none;
+}
+.header-nav a:hover{
+   border-bottom: 1px solid #2B3541;
+   
+}
+
+
+.buttun-item ul {
+   display: flex;
+   list-style-type: none;
+   padding-left: 0;
+}
+.buttun-item li {
+   margin-left: 30px;
+}
+.buttun-item a {
+   display: block;
+   background-image: url(https://cdn-icons-png.flaticon.com/512/87/87390.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 30px;
+   height: 30px;
+   transition: 0.3s;
+   transform: scale(1);
+   opacity: 0.8;
+}
+.buttun-item a:hover {
+   transform: scale(1.2);
+   opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+
+
+.main{
+   position: relative;
+   max-width: 1141px;
+   margin: 0 auto;
+   margin-bottom: 162px;
+
+}
+
+.wrapper{
+   max-width: 1326px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.baner-box{
+   flex: 0 0 655px;
+   flex-basis: 640px;
+}
+
+.baner-box h1{
+   font-weight: 700;
+   font-size: 48px;
+   text-transform: uppercase;
+   color: #2B3541;
+   letter-spacing: 0.03em;
+   line-height: 122%;
+   margin: 0;
+   padding-bottom: 29px;
+   
+
+}
+
+.baner-text{
+   display: block;
+   font-weight: 400;
+   font-size: 40px;
+   line-height: 125%;
+   color: #2B3541;
+}
+.baner-text span{
+   display: flex;
+   gap: 20px;
+   line-height: 83px;
+   
+}
+
+
+.baner-text p{
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 30px;
+   color: #2B3541;
+   margin-top: 0;
+   margin-bottom: 30px;
+   
+}
+.baner-text a{
+   
+   text-transform: uppercase;
+   font-weight: 700;
+   font-size: 16px;
+   color: #2B3541;
+   background: #FBF138;
+   padding: 21px 31px;
+   text-decoration: none;
+   max-width: 252px;
+   text-align: center;
+   letter-spacing: 0.03em;
+}
+
+.baner-text a:hover {
+   background: #2B3541;
+   color: #FBF138;
+}
+
+
+.baner-text p,
+.baner-text a{
+   margin-left: 90px;
+}
+
+
+.main-fon{
+
+   width: 464px;
+   height: 850px;
+   right: 100px;
+   background: linear-gradient(90deg, #FBF138 0%, rgba(253, 249, 182, 0.45) 145.23%);
+}
+
+.fon img{
+   position:absolute;
+
+   bottom: 0px;
+   right: -170px;
+   width: 990px;
+   height: 820px;
+   
+   
+}
+.fon{
+   flex-basis: calc(990px);
+}
+
+.arrow{
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   
+}
+
+.arrow-link{
+   transition: 0.4s;
+}
+
+
+
+
+
+/* Grid */
+.menu{
+   margin-bottom: 160px;
+}
+
+.menu-header{
+   font-weight: 700;
+   font-size: 27px;
+   color: #2B3541;
+   padding-bottom: 43px;
+}
+.menu-header h2{
+   padding: 0;
+   margin: 0;
+}
+
+.menu-grid{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 17px;
+   
+   
+
+   
+}
+
+.menu-grid-cover{
+   display: grid;
+   background: linear-gradient(180deg, #FBF138 0%, rgba(253, 249, 182, 0) 50%);
+   
+   
+}
+.menu-grid-cover img{
+   background-size: contain;
+   opacity: 0.7;
+}
+
+
+.menu-grid-text{
+   position: absolute;
+   
+   margin-top: 35px;
+   margin-left: 30px;
+   margin-bottom: 43px;
+   
+   
+   
+}
+
+
+.menu-grid-title{
+   font-weight: 700;
+   font-size: 18px;
+   color: #2B3541;
+}
+.menu-grid-prise{
+   font-weight: 700;
+   font-size: 28px;
+   color: #2B3541;
+}
+
+.menu-grid-hashtag{
+   position: relative;
+}
+
+.grid-hashtag{
+   font-weight: 400;
+   font-size: 18px;
+   color: #2B3541;
+   text-align: center;
+   background: #FBF138;
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   padding: 14px 20px;
+   background-size: contain;
+}
+
+
+
+.menu-grid-btn{
+   
+   font-weight: 700;
+   font-size: 16px;
+   color: #2B3541;
+   text-transform: uppercase;
+   text-align: center;
+   background: #FBF138;
+   border: none;
+   padding: 23px 52px;
+   margin-left: 30px;
+   display: block;
+   text-decoration: none;
+}
+.menu-grid-btn:hover{
+   display: block;
+   background: #2B3541;
+   color: #FBF138
+}
+
+
+
+
+/* training */
+.training{
+   margin-bottom: 162px;
+}
+
+.training-header{
+   display: flex;
+   justify-content: space-between;
+   
+   align-items: center;
+   margin-bottom: 37px;
+}
+.training-header-text{
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 50px;
+   color: #2B3541;
+}
+.training-header-date{
+   font-weight: 700;
+   font-size: 28px;
+   color: #2B3541;
+   
+}
+
+.training-grid{
+display: grid;
+grid-template-rows: 306px 75px 279px;
+grid-template-columns: repeat(3, 1fr);
+gap: 20px;
+}
+.training-box{
+   border: 1px solid #2B3541;
+   position: relative;
+   
+   grid-template-columns: repeat(3, 1fr);
+}
+.training-date{
+   font-weight: 400;
+   font-size: 18px;
+   color: #010101;
+   opacity: 0.7;
+   display: flex;
+   justify-content: flex-end;
+   margin-top: 22px;
+   margin-right: 30px;
+}
+.training-text{
+   font-weight: 700;
+   font-size: 18px;
+   color: #2B3541;
+   line-height: 38px;
+   margin-left: 30px;
+   display: block;
+   position: absolute;
+   bottom: 9px;
+   left: 0;
+}
+.training-text p{
+   margin-bottom: 0
+}
+
+.training-grid .training-box-body{
+   grid-area: 1;
+   grid-column: 1 / 2;
+}
+
+.training-grid .training-box-bottle{
+   
+   grid-area: 2 span;
+   grid-column: 2 / 3;
+}
+.training-box-dumbbell{
+   grid-area: 1;
+   grid-column: 3 / 3;
+}
+.training-box-jump{
+   grid-area: 2 span;
+   grid-column: 1 / 2;
+}
+.training-box-heart{
+   grid-area: 3/ 4;
+   grid-column: 2 / 3;
+}
+.training-box-weight{
+   grid-area: 2 span;
+   grid-column: 3 / 3;
+}
+
+
+
+/* subscription */
+
+.subscription{
+   height: 348px;
+   background-color: #F3F3F3;
+   margin-bottom: 157px;
+}
+
+.subscription-header{
+   font-weight: 700;
+   font-size: 40px;
+   text-align: center;
+   color: #2B3541;
+   
+   position: relative;
+   margin: 0 auto;
+   z-index: 1;
+   padding-top: 80px;
+   padding-bottom: 43px;
+   max-width: 590px;
+}
+
+
+.pattern{
+   
+   background: #FBF138;
+   box-shadow: 0px 13px 24px rgba(251, 241, 56, 0.3);
+   background-repeat: no-repeat;
+   border-radius: 50%;
+   width: 53px;
+   height: 53px;
+   position: absolute;
+   
+   bottom: 34%;
+   left: -5.5%;
+   z-index: -1;
+
+}
+
+.form-box{
+   display: block;
+   margin: 0 auto;
+   max-width: 608px;
+}
+
+.form{
+   
+   display: flex;
+   justify-content: center;
+   margin: 0 0;
+   gap: 20px;
+   align-items: center;
+   
+   padding-bottom: 15px;
+   
+}
+.form-group{
+   
+}
+input{
+   width: 330px;
+   padding: 22px 20px;
+   font-weight: 400;
+   font-size: 18px;
+   color: #2B3541;
+   border: none;
+   opacity: 0.3;
+   background: #FFFFFF;
+   
+}
+
+.form-button a{
+   background: #FBF138;
+   font-weight: 700;
+   font-size: 16px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #2B3541;
+   padding: 20px 43px;
+   
+   text-decoration: none;
+   
+}
+.form-button a:hover{
+   color: #FBF138;
+   background: #2B3541;
+   transform: 0.5s;
+}
+
+/* checkbox */
+
+.agreement {
+   position: absolute;
+   font-weight: 400;
+   font-size: 11px;
+   
+   
+}
+label a{
+   color: #2B3541
+}
+
+.checkbox:checked,
+.checkbox:not(:checked){
+   position: absolute;
+   left:-9999px;
+}
+.checkbox:checked + label,
+.checkbox:not(:checked) + label{
+   position: relative;
+   padding-left: 25px;
+   cursor:pointer;
+}
+/* Стили для псевдоэлемента before с фоном и обводкой, когда пункт активен */
+.checkbox:checked + label::before{
+   content:'';
+   position: absolute;
+   width: 16px;
+   height: 16px;
+   left:0;
+   top:calc(50% - 10px);
+   background-color: #2B3541;
+   border-radius: 2px;
+   border: 2px solid #2B3541;
+}
+/* Стили для псевдоэлемента after с изображением, когда пункт активен */
+.checkbox:checked + label::after{
+   content:'';
+   position: absolute;
+   width: 12px;
+   height: 12px;
+   transition: all .2s ease;
+   opacity: 1;
+   left: 4px;
+   top: calc(50% - 6px);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/White_check.svg/2048px-White_check.svg.png);
+}
+/* Стили для псевдоэлемента before с фоном и обводкой, когда пункт НЕ активен */
+.checkbox:not(:checked) + label::before{
+   content:'';
+   position: absolute;
+   width: 16px;
+   height: 16px;
+   left:0;
+   top:calc(50% - 10px);
+   background-color: transparent;
+   border-radius: 2px;
+   border: 2px solid #2B3541;
+}
+/* Стили для псевдоэлемента after с изображением, когда пункт НЕ активен */
+.checkbox:not(:checked) + label::after{
+   content:'';
+   position: absolute;
+   width: 12px;
+   height: 12px;
+   transition: all .2s ease;
+   opacity: 0;
+   left: 4px;
+   top: calc(50% - 6px);
+   background-position: 0 -12px;
+   background-color: transparent;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/White_check.svg/2048px-White_check.svg.png);
+}
+.radio:checked + label::before{
+   border-radius: 100%;
+}
+
+
+
+/* company-info */
+
+.company{
+   margin-bottom: 205px;
+}
+
+
+.company-text{
+
+}
+.company-box{
+   display: grid;
+   grid-template-columns: 48% 51%;
+   margin-bottom: 76px;
+}
+
+.company-img-box{
+   display: grid;
+   
+}
+
+.company-img{
+   display: block;
+   
+   background: linear-gradient(180deg, #FBF138 0%, rgba(253, 249, 182, 0) 50%);
+}
+.company-img img{
+   opacity: 0.7;
+   background-size: contain;
+}
+
+
+
+.company-text{
+   display: block;
+   max-width: 483px;
+}
+
+.company-text h2{
+   font-weight: 700;
+   font-size: 40px;
+   color: #2B3541;
+   margin: 0;
+   margin-bottom: 20px;
+}
+
+.company-text p{
+   font-weight: 400;
+   font-size: 18px;
+   color: #2B3541;
+   line-height: 27px;
+   margin: 0;
+   margin-bottom: 35px;
+}
+.company-text-button a{
+   border: none;
+   background: #FBF138;
+   color: #2B3541;
+   font-weight: 700;
+   font-size: 16px;
+   text-align: center;
+   text-transform: uppercase;
+   padding: 24px 53px;
+   text-decoration: none;
+}
+.company-text-button a:hover{
+   background: #2B3541;
+   color: #FBF138;
+   transform: 0.5s;
+}
+
+
+
+.company-info{
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 39px;
+}
+.company-info h3{
+   font-weight: 700;
+   font-size: 18px;
+   color: #2B3541;
+   margin: 0;
+   padding-bottom: 22px;
+}
+.company-info p{
+   font-weight: 400;
+   font-size: 18px;
+   color: #2B3541;
+
+   opacity: 0.6;
+   line-height: 26px;
+   margin: 0;
+}
+
+/* Footer */
+
+.footer{
+   background-color: #F3F3F3;
+   padding-top: 35px;
+   padding-bottom: 15px;
+   
+}
+
+
+.footer-item{
+   display: flex;
+   align-items: center;
+   
+   justify-content: space-between;
+   
+}
+.footer-item-box{
+   display: flex;
+   align-items: center;
+   gap: 75px;
+   justify-content: space-between;
+}
+.header-logo{
+   background-image: url(/img/logo.svg);
+   align-items: center;
+   max-width: 300px;
+   padding: 0;
+   margin: 0;
+}
+.footer-nav{
+   list-style-type: none;
+   display: flex;
+   padding: 0;
+   justify-content: space-between;
+   gap: 90px;
+}
+
+.footer-nav a{
+   text-decoration: none;
+   font-weight: 400;
+   font-size: 14px;
+   color: #2B3541;
+   
+}
+.footer-nav a:hover{
+   border-bottom: 1px solid #2B3541;
+}
+
+
+.footer-info{
+   display: flex;
+   align-items: center;
+   gap: 29px;
+   justify-content: center;
+   
+}
+
+.footer-mail{
+   position: relative;
+   max-width: 142px;
+   font-weight: 700;
+   font-size: 16px;
+   color: #2B3541;
+}
+
+.footer-mail-fon{
+   position: absolute;
+   background: #FBF138;
+   width: 25px;
+   height: 25px;
+   background-repeat: no-repeat;
+   border-radius: 50%;
+   background-size: cover;
+   top: -14px;
+   left: -15px;
+   z-index: -1;
+
+}
+
+
+
+.footer-info ul {
+   display: flex;
+   list-style-type: none;
+   padding-left: 0;
+
+}
+.footer-info li {
+   margin-left: 30px;
+}
+.footer-info a {
+   display: block;
+   background-image: url(https://cdn-icons-png.flaticon.com/512/87/87390.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 30px;
+   height: 30px;
+   transition: 0.3s;
+   transform: scale(1);
+   opacity: 0.8;
+}
+.footer-info a:hover {
+   transform: scale(1.2);
+   opacity: 1;
+}
+
+
+
+.footer-text{
+   font-weight: 400;
+   font-size: 14px;
+   color: #2B3541;
+
+   opacity: 0.3;
+   display: flex;
+   justify-content: space-between;
+}
