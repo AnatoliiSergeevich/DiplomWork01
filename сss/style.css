@@ -470,7 +470,6 @@ input{
 .form-button a:hover{
    color: #FBF138;
    background: #2B3541;
-   transform: 0.5s;
 }
 
 /* checkbox */
@@ -624,10 +623,7 @@ input{
 .company-text-button a:hover{
    background: #2B3541;
    color: #FBF138;
-   transform: 0.5s;
 }
-
-
 
 .company-info{
    display: grid;
