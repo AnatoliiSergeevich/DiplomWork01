@@ -166,10 +166,11 @@ body{
 
 .main-fon{
 
-   width: 464px;
+   width: 100%;
    height: 850px;
    right: 100px;
    background: linear-gradient(90deg, #FBF138 0%, rgba(253, 249, 182, 0.45) 145.23%);
+   opacity: 0.2
 }
 
 .fon img{
@@ -235,7 +236,17 @@ body{
 .menu-grid-cover img{
    background-size: contain;
    opacity: 0.7;
-   
+   width: 100%;
+   object-fit: cover;
+}
+.menu-grid-cover-img{
+   background-image: url(../img/03.jpg);
+   opacity: 0.7;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 200%;
+
 }
 
 
@@ -345,7 +356,7 @@ body{
    border: 1px solid #2B3541;
    position: relative;
    
-   grid-template-columns: repeat(3, 1fr);
+
 }
 .training-date{
    font-weight: 400;
@@ -504,7 +515,6 @@ input{
 .agreement a{
    color: #2B3541
 }
-
 .checkbox:checked,
 .checkbox:not(:checked){
    position: absolute;
@@ -513,7 +523,7 @@ input{
 .checkbox:checked + label,
 .checkbox:not(:checked) + label{
    position: relative;
-   padding-left: 25px;
+   padding-left: 35px;
    cursor:pointer;
 }
 /* Стили для псевдоэлемента before с фоном и обводкой, когда пункт активен */
@@ -573,6 +583,7 @@ input{
 .radio:checked + label::before{
    border-radius: 100%;
 }
+
 
 
 
@@ -787,4 +798,329 @@ input{
    opacity: 0.3;
    display: flex;
    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* адоптив */
+
+@media (max-width: 1000px){
+   .header-logo{
+   margin: 0;
+   }
+   .main-fon{
+      height: 649px;
+   }
+   .fon img{
+   right: -77px;
+   width: 667px;
+   height: 537px;
+   }
+   .wrapper{
+      align-items: flex-start;
+   }
+   .baner-text p,
+    .baner-text a {
+      margin-left: 0;
+   }
+   .menu-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px 20px;
+      grid-template-rows: 309px 334px;
+   }
+   .menu-grid-cover:last-child{
+      grid-column: 1 / 3;
+      grid-row: 2 / 3;
+   }
+
+   /* background: url(../img/04.jpg);
+      opacity: 0.7;
+      background-repeat: no-repeat;
+      background-position: left;
+      object-fit: cover;
+      height: 100%;
+      width: 100%; */
+   .menu-grid-cover
+
+   .menu-grid-cover-img{
+      background-image: url(../img/04.jpg);
+      opacity: 0.7;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+   }
+   
+
+   /* mpbal */
+   .burger{
+      width: 34px;
+      height: 22px;
+      background-image: url(../imeges/burger.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+   }
+
+
+   .menu-grid-cover img {
+      position: absolute;
+      height: 100%;
+   }
+      .menu-grid-btn {
+   top: 53%;
+}
+
+/* Footer */
+.footer-nav{
+   gap: 15px;
+}
+
+.footer-item {
+   display: block;
+}
+.footer-info {
+   justify-content: flex-end;
+}
+
+}
+
+
+@media (max-width: 768px){
+
+   .main-fon {
+      height: 397px;
+   }
+   .baner-box {
+      flex: 0 0 579px;
+      flex-basis: 368px;
+   }
+   .baner-box h1 {
+      font-weight: 700;
+      font-size: 26px;
+   }
+   .baner-text {
+      font-size: 26px;
+   }
+   .baner-text span {
+      line-height: 59px;
+   }
+   .baner-text p {
+      font-weight: 400;
+      font-size: 16px;
+      margin-bottom: 47px;
+   }
+
+
+   .fon img {
+      right: 0px;
+      width: 400px;
+      height: 350px;
+   }
+
+   .menu-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 17px;
+   }
+
+   .menu-grid-title{
+      font-weight: 700;
+    font-size: 12px;
+   }
+
+   .menu-grid-prise{
+      font-size: 16px;
+   }
+   .menu-header{
+      font-size: 18px;
+      padding-bottom: 24px;
+   }
+   .menu-grid-text {
+      margin-top: 5px;
+   }
+
+   .training-header-text{
+      font-size: 26px;
+      line-height: 30px;
+   }
+
+   .training-header-date{
+      font-size: 16px;
+   }
+
+
+
+   .training-grid{
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 224px 224px 224px;
+      grid-auto-flow: column;
+   }
+   .training-box {
+      
+   grid-area: auto;
+   grid-column: auto;
+  }
+  
+
+
+
+.training-box-body{
+   grid-area: auto;
+   grid-column: auto;
+}
+
+.training-box-bottle{
+   grid-area: auto;
+   grid-column: auto;
+}
+.training-box-dumbbell{
+   grid-area: auto;
+   grid-column: auto;
+}
+.training-box-jump{
+   grid-area: auto;
+   grid-column: auto;
+}
+.training-box-heart{
+   grid-area: auto;
+   grid-column: auto;
+}
+.training-box-weight{
+   grid-area: auto;
+   grid-column: auto;
+}
+
+
+
+   /* subscription */
+
+.subscription {
+   height: 450px;
+}
+
+.subscription-header {
+   font-size: 26px;
+   padding-top: 62px;
+   padding-bottom: 56px;
+   max-width: 235px;
+}
+
+.pattern {
+   width: 31px;
+   height: 31px;
+   bottom: 47%;
+   left: 0%;
+}
+
+.form-box{
+   justify-content: center;
+   text-align: center;
+   position: relative;
+   max-width: 380px;
+
+}
+.form{
+   display: block;
+   line-height: 0;
+}
+.form-group{
+   margin-bottom: 108px;
+}
+.agreement {
+   position: absolute;
+   top: 81px;}
+.form-button {
+   background: #FBF138;
+   justify-content: center;
+   padding: 15px 0;
+   display: flex;
+  }
+
+  /* company */
+.company{
+   margin-bottom: 92px;
+}
+.company-text h2{
+   font-size: 26px;
+   margin-bottom: 16px;
+}
+.company-text p {
+   font-size: 16px;
+   margin-bottom: 42px;
+}
+
+.company-text-button a {
+   padding: 24px 50px
+}
+.company-img img {
+   height: 226px;
+}
+
+.company-info {
+   
+   grid-template-columns: repeat(2, 1fr);
+   gap: 39px;
+}
+.company-info h3{
+   padding-bottom: 17px;
+}
+.company-info p{
+   margin-right: 80px;
+}
+
+
+/* footer */
+
+.footer-nav{
+   gap: 15px;
+}
+
+.footer-item {
+   display: block;
+}
+.footer-info {
+   justify-content: flex-end;
+}
+}
+
+@media (max-width: 600px){
+
+   .main {
+      margin-bottom: 500px;
+   }
+   .wrapper {
+      position: relative;
+  }
+.fon{
+   display: block;
+   position: absolute;
+   top: 406px;
+   height: 398px;
+   width: 100%;
+}
+.arrow{
+   display: none;
+}
+.fon img {
+   bottom: 123px;
+
+}
+.main-fon {
+   height: 289px;}
 }
