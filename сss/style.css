@@ -607,6 +607,7 @@ input{
 .company-img img{
    opacity: 0.7;
    background-size: contain;
+   width: 100%;
 }
 
 .company-text{
