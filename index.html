@@ -16,10 +16,7 @@
    <header>
       <div class="container">
          <div class="header">
-            <div class="header-burger">
-               <button class="burger" onclick="openModal()">
-               </button>
-            </div>
+            
             <div class="header-item">
                <a href="#" class="header-logo"></a>
                <nav>
@@ -29,6 +26,11 @@
                      <li><a href="#">О компании</a></li>
                   </ul>
                </nav>
+            </div>
+
+            <div class="button-logo">
+               <button class="button-logo-img" onclick="openModal()">
+               </button>
             </div>
 
             <div class="buttun-item">
@@ -308,8 +310,47 @@
 
          </div>
       </footer>
-
    </main>
+   <div class="madal" id="modal">
+
+      <ul class="header-nav">
+         <a href="#" class="header-logo"></a>
+         <li>
+            <a href="#">Мероприятия</a>
+         <hr>
+         </li>
+         
+         <li>
+            <a href="#">Расписание</a>
+         <hr>
+         </li>
+         <li><a href="#">О компании</a></li>
+         <button class="nav-close" onclick="closeModal()">
+
+         </button>
+         <div class="buttun-item">
+            <ul>
+               <li>
+                  <a href="#" target="_blank"></a>
+               </li>
+               <li>
+                  <a href="#" target="_blank"></a>
+               </li>
+            </ul>
+         </div>
+      </ul>
+      
+   </div>
+   <script>
+       function openModal() {
+           document.getElementById("modal").style.top = "0px";
+       }
+
+       function closeModal() {
+           document.getElementById("modal").style.top = "-400px";
+       }
+
+   </script>
    
 </body>
 </html>
