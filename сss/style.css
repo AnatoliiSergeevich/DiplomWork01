@@ -1071,7 +1071,42 @@ input{
 }
 }
 
+   @media (max-width: 450px){
+      .training-grid{
+         display: flex;
+         flex-direction: column;
+         
+         
+      }
+      .training-box {
+         height: 94px;
+         width: 100%;
+      }
+      .training-text{
+         display: flex;
+         align-items: center;
+         gap: 3px;
+         line-height: 0;
+         margin-left: 5px;
+      }
+      .training-text img{
+         width: 33px;
+         height: 33px;
+   }
+   .company-info p {
+      margin-right: 0px;
+   }
 
+
+   .footer-item{
+      display: flex;
+      flex-direction: column;
+  }
+   .footer-item-box{
+      display: flex;
+      flex-direction: column;
+   }
+}
 
    @media (max-width: 350px){
       .menu-grid-cover-img{
