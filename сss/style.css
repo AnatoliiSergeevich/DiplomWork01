@@ -65,7 +65,6 @@ body{
 }
 .buttun-item a {
    display: block;
-   background-image: url(https://cdn-icons-png.flaticon.com/512/87/87390.png);
    background-size: cover;
    background-repeat: no-repeat;
    width: 30px;
@@ -73,6 +72,12 @@ body{
    transition: 0.3s;
    transform: scale(1);
    opacity: 0.8;
+}
+.buttun-item-in{
+   background-image: url(../img/IN.svg);
+}
+.buttun-item-fb{
+   background-image: url(../img/FB.svg);
 }
 .buttun-item a:hover {
    transform: scale(1.2);
@@ -683,7 +688,7 @@ input{
 .footer-item-box{
    display: flex;
    align-items: center;
-   gap: 75px;
+   
    justify-content: space-between;
 }
 .footer-logo{
@@ -695,6 +700,7 @@ input{
    background-size: cover;
    width: 97px;
    height: 30px;
+   margin-right: 75px;
 }
 .footer-nav{
    list-style-type: none;
@@ -746,17 +752,7 @@ input{
 .footer-info li {
    margin-left: 30px;
 }
-.footer-info a {
-   display: block;
-   background-image: url(https://cdn-icons-png.flaticon.com/512/87/87390.png);
-   background-size: cover;
-   background-repeat: no-repeat;
-   width: 30px;
-   height: 30px;
-   transition: 0.3s;
-   transform: scale(1);
-   opacity: 0.8;
-}
+
 .footer-info a:hover {
    transform: scale(1.2);
    opacity: 1;
@@ -1019,6 +1015,9 @@ input{
       margin-right: 80px;
    }
    /* footer */
+   .footer-logo{
+      margin-right: 0;
+   }
    .footer-nav{
       gap: 15px;
    }
@@ -1071,7 +1070,7 @@ input{
 }
 }
 
-   @media (max-width: 450px){
+   @media (max-width: 455px){
       .training-grid{
          display: flex;
          flex-direction: column;
