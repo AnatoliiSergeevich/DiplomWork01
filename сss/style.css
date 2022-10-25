@@ -908,6 +908,12 @@ input{
       font-size: 26px;
       line-height: 30px;
    }
+   .grid-hashtag{
+      font-size: 12px;
+      padding: 10px 15px;
+      right: calc(100% - 84px);
+      
+   }
    .training-header-date{
       font-size: 16px;
    }
@@ -1070,27 +1076,38 @@ input{
 }
 }
 
+@media (max-width: 550px){
+   .menu-grid-cover-img {
+    background-image: url(../img/04.jpg);
+    opacity: 0.7;
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200%;
+}
+}
+
    @media (max-width: 455px){
-      .training-grid{
-         display: flex;
-         flex-direction: column;
-         
-         
-      }
-      .training-box {
-         height: 94px;
-         width: 100%;
-      }
-      .training-text{
-         display: flex;
-         align-items: center;
-         gap: 3px;
-         line-height: 0;
-         margin-left: 5px;
-      }
-      .training-text img{
-         width: 33px;
-         height: 33px;
+   .training-grid{
+      display: flex;
+      flex-direction: column;
+      
+      
+   }
+   .training-box {
+      height: 94px;
+      width: 100%;
+   }
+   .training-text{
+      display: flex;
+      align-items: center;
+      gap: 3px;
+      line-height: 0;
+      margin-left: 5px;
+   }
+   .training-text img{
+      width: 33px;
+      height: 33px;
    }
    .company-info p {
       margin-right: 0px;
@@ -1120,9 +1137,6 @@ input{
 
 /* Modal */
 
-   .button-logo{
-
-   }
 
    .button-logo-img{
       width: 29px;
@@ -1134,7 +1148,6 @@ input{
       border: none;
       cursor: pointer;
    }
-
    .madal{
       background: #F3F3F3;
       max-width: 587px;
@@ -1182,26 +1195,26 @@ input{
       bottom: 20px;
    }
    .madal-info{
-   background: #2B3541;
-   opacity: 0.4;
-   height: 135px;
-   display: flex;
-   justify-content: center;
-   text-align: center;
-   margin-top: 25px;
+      background: #2B3541;
+      opacity: 0.4;
+      height: 135px;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      margin-top: 25px;
    }
 
    .madal-info a{
-   text-transform: uppercase;
-   font-weight: 700;
-   font-size: 16px;
-   color: #2B3541;
-   background: #FBF138;
-   padding: 21px 31px;
-   text-decoration: none;
-   text-align: center;
-   justify-content: center;
-   align-items: center;
-   margin: 39px auto;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 16px;
+      color: #2B3541;
+      background: #FBF138;
+      padding: 21px 31px;
+      text-decoration: none;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      margin: 39px auto;
    }
 
