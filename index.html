@@ -48,88 +48,97 @@
    </header>
 
    <main>
-      <div class="main">
-         <div class="wrapper">
-            <div class="baner-box">
-               <h1>онлайн тренировки<br> любой сложности</h1>
-               <div class="baner-text">
-                  <span>> 15 <span>тренировок</span></span>
-                  
-                  
-                  <p>в области спортивной<br> физиологии и нутрициологии</p>
-                  <a href="#">Узнать подробнее</a>
+      <div class="container">
+
+         <div class="main">
+            <div class="wrapper">
+               <div class="baner-box">
+                  <h1>онлайн тренировки<br> любой сложности</h1>
+                  <div class="baner-text">
+                     <span>> 15 <span>тренировок</span></span>
+                     
+                     
+                     <p>в области спортивной<br> физиологии и нутрициологии</p>
+                     <a href="#">Узнать подробнее</a>
+                  </div>
                </div>
+                  <div class="fon">
+                     <div class="main-fon"></div>
+                     <img src="img/girl.png" alt="#">
+                     
+                  </div>
+               <div class="arrow">
+                  <a href="#menuSection" class="arrow-link">
+                     <img src="img/arrow.svg" alt="#">
+                  </a>
+                  
+               </div> 
             </div>
-               <div class="fon">
-                  <div class="main-fon"></div>
-                  <img src="img/girl.png" alt="#">
-                  
-               </div>
-            <div class="arrow">
-               <a href="#menuSection" class="arrow-link">
-                  <img src="img/arrow.svg" alt="#">
-               </a>
-               
-            </div> 
+            
          </div>
-         
       </div>
+      
+
       <section class="menu" id="menuSection">
          <div class="container">
             <div class="menu-header">
                <h2>Ближайшие события</h2>
             </div>
-
+            <!-- menu-grid-cover-img -->
             <div class="menu-grid">
                
                <div class="menu-grid-cover">
-                  <img src="img/01.jpg" alt="#">
+                  <div class="menu-grid-cover-img01">
+                  </div>
                   <div class="menu-grid-text">
                      <p class="menu-grid-title">29.06 - 4.07</p>
                      <p class="menu-grid-prise">Марафон<br> выносливости</p>
-                     
                   </div>
                   <a class="menu-grid-btn" href="#">
                      записаться
                   </a>
-                  
-                  
-
                   <div class="menu-grid-hashtag">
                      <div class="grid-hashtag">марафон</div>
+                     <div>
+                        <a class="vector" href="#"></a>
+                     </div>
                   </div>
                </div>
                
                <div class="menu-grid-cover">
-                  <img src="img/02.jpg" alt="#">
+                  <div class="menu-grid-cover-img02">
+                  </div>
                   <div class="menu-grid-text">
                      <p class="menu-grid-title">9.07</p>
                      <p class="menu-grid-prise">Как стать<br> тренером?</p>
-                     
                   </div>
                   <a class="menu-grid-btn" href="#">
                         записаться
                   </a>
                   <div class="menu-grid-hashtag">
                      <div class="grid-hashtag">вебинар</div>
+                     <div>
+                        <a class="vector" href="#"></a>
+                     </div>
                   </div>
                </div>
                
+
                <div class="menu-grid-cover">
-                  <div class="menu-grid-cover-img"">
-                     
+                  <div class="menu-grid-cover-img03">
                   </div>
-                  
                   <div class="menu-grid-text">
                      <p class="menu-grid-title">15.07</p>
                      <p class="menu-grid-prise">Йога, как стиль<br> жизни</p>
-                     
                   </div>
                   <a class="menu-grid-btn" href="#">
                         записаться
                   </a>
                   <div class="menu-grid-hashtag">
                      <div class="grid-hashtag">вебинар</div>
+                     <div>
+                        <a class="vector" href="#"></a>
+                     </div>
                   </div>
                </div>
 
@@ -139,7 +148,7 @@
       </section>
 
 
-      <section class="training">
+      <div class="training">
          <div class="container">
             <div class="training-header">
                <div class="training-header-text">Расписание<br> тренировок</div>
@@ -195,30 +204,33 @@
 
             </div>
          </div>
-      </section>
+      </div>
 
-      <div class="subscription">
-         <div class="subscription-header ">
-            Подпишитесь на рассылку
-            <img class="pattern" src="img/Pattern.svg" alt="#">
+      <div class="container">
+         <div class="subscription">
+            <div class="subscription-header ">
+               Подпишитесь на рассылку
+               <img class="pattern" src="img/Pattern.svg" alt="#">
 
-            
-         </div>
-         <div class="form-box">
-            <form class="form" action="/" method="post">
-               <div class="form-group">
-                  <input type="text" name="name" placeholder="Ваш e-mail">
+               
+            </div>
+            <div class="form-box">
+               <form class="form" action="/" method="post">
+                  <div class="form-group">
+                     <input type="text" name="name" placeholder="Ваш e-mail">
+                  </div>
+                  
+                  <a class="form-button" href="#">ПОДПИСАТЬСЯ</a>
+                  
+               </form>
+               <div class="agreement">
+                  <input type="checkbox" id="01" class="checkbox">
+                  <label for="01">Согласен с обработкой <a href="https://annblok.ru/workshop" target="_blank">персональных данных</a></label>
                </div>
-               <div class="form-button">
-                  <a href="#">ПОДПИСАТЬСЯ</a>
-               </div>
-            </form>
-            <div class="agreement">
-               <input type="checkbox" id="01" class="checkbox">
-               <label for="01">Согласен с обработкой <a href="https://annblok.ru/workshop" target="_blank">персональных данных</a></label>
             </div>
          </div>
       </div>
+      
 
       <div class="company">
          <div class="container">
@@ -228,9 +240,9 @@
                   <p>
                      Наша компания является одной из немногих, кто предлагает фитнес услуги онлайн! Оставайтесь с нами и вы сами увидите, что мы проводим не только онлайн-тренировки.
                   </p>
-                  <div class="company-text-button">
-                     <a href="#">Записаться</a>
-                  </div>
+                  
+                     <a class="company-text-button" href="#">Записаться</a>
+                  
                </div>
                <div class="company-img-box">
                   <div class="company-img">
@@ -270,7 +282,7 @@
                
                <div class="footer-item-box">
                   <a class="footer-logo" href="#"></a>
-                  <nav>
+                  <nav class="footer-nav-box">
                      <ul class="footer-nav">
                         <li><a href="">Мероприятия</a></li>
                         <li><a href="">Расписание</a></li>
@@ -295,9 +307,6 @@
                   </div>
                </div>
             </div>
-            
-         </div>
-
 
             <div class="footer-text">
                <p>
@@ -311,41 +320,43 @@
             </div>
 
          </div>
+
+
+            
+
+         
       </footer>
    </main>
 
-   <div class="madal" id="modal">
-      <ul class="header-nav">
-         <a href="#" class="header-logo"></a>
+   <div class="modal" id="modal">
+
+      <div class="modal-header">
+         <a href="#" class="modal-logo"></a>
+         <button class="nav-close" onclick="closeModal()">
+         </button>
+      </div>
+      <ul class="header-logo-nav">
          <li>
             <a href="#">Мероприятия</a>
          <hr>
          </li>
-         
          <li>
             <a href="#">Расписание</a>
          <hr>
          </li>
          <li><a href="#">О компании</a></li>
-         <button class="nav-close" onclick="closeModal()">
-
-         </button>
-         <div class="buttun-item">
-            <ul>
-               <li>
-                  <a class="buttun-item-in" href="#" target="_blank"></a>
-               </li>
-               <li>
-                  <a class="buttun-item-fb" href="#" target="_blank"></a>
-               </li>
-            </ul>
-         </div>
+         
       </ul>
-
-      <!-- <div class="madal-info">
-         <a href="#">Узнать подробнее</a>
-      </div> -->
-      
+      <div class="buttun-item">
+         <ul>
+            <li>
+               <a class="buttun-item-in" href="#" target="_blank"></a>
+            </li>
+            <li>
+               <a class="buttun-item-fb" href="#" target="_blank"></a>
+            </li>
+         </ul>
+      </div>
    </div>
    <script>
        function openModal() {
