@@ -1273,7 +1273,12 @@ input{
 }
 
 /* Modal */
-
+.header-item {
+   margin-right: 48px;
+}
+   .button-logo{
+      flex: 1 0 0;
+   }
 
    .button-logo-img{
       width: 29px;
@@ -1284,6 +1289,7 @@ input{
       background-color: transparent;
       border: none;
       cursor: pointer;
+      flex: 1 0 0;
    }
    .modal{
       background: #F3F3F3;
@@ -1307,7 +1313,6 @@ input{
       flex-direction: column;
       gap: 13px;
       margin: 0;
-      
    }
    .nav-close{
       width: 20px;
@@ -1317,7 +1322,6 @@ input{
       background-size: contain;
       background-repeat: no-repeat;
       border: none;
-      
       cursor: pointer;
    }
    .modal-logo{
@@ -1336,33 +1340,22 @@ input{
    }
    .modal .buttun-item li{
       margin-left: 21px;
-      
    }
    .buttun-item a{
       width: 26px;
     height: 26px;
    }
-   
 .header-logo-nav{
    display: flex;
    list-style-type: none;
-   
    padding: 0;
-   
 }
 .header-logo-nav a{
    font-weight: 400;
    font-size: 16px;
    color: #2B3541;
    text-decoration: none;
-   
 }
 .header-logo-nav hr{
    margin-top: 22px;
-   
-
 }
-
-
-
-
