@@ -1089,9 +1089,11 @@ input{
    }
    .company-info h3{
       padding-bottom: 17px;
+      font-size: 16px;
    }
    .company-info p{
       margin-right: 80px;
+      font-size: 16px;
    }
    /* footer */
    .footer-logo{
