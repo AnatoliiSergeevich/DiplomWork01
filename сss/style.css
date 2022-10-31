@@ -92,7 +92,6 @@ body{
    max-width: 1141px;
    margin: 0 auto;
    margin-bottom: 162px;
-   overflow: hidden;
 }
 
 .wrapper{
@@ -180,7 +179,7 @@ body{
 
 .fon img{
    position:absolute;
-   bottom: 0px;
+   bottom: 0;
    right: -129px;
    width: 880px;
    height: 819px;
@@ -1175,6 +1174,9 @@ input{
       background-repeat: no-repeat;
       height: 200%;
    }
+   .menu-grid-text {
+      margin-left: 18px;
+   }
    .company-info {
       grid-template-columns: repeat(1, 1fr);
       gap: 39px;
@@ -1271,6 +1273,13 @@ input{
       background-size: cover;
       background-repeat: no-repeat;
       height: 200%;
+   }
+   .menu-grid-text {
+      margin-left: 0;
+  }
+  .training-text p {
+   
+   line-height: 18px;
    }
 }
 
