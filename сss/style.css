@@ -180,8 +180,8 @@ body{
 .fon img{
    position:absolute;
    bottom: 0;
-   right: -129px;
-   width: 880px;
+   right: 10px;
+   width: 58vw;
    height: 819px;
 }
 .fon{
@@ -827,8 +827,7 @@ input{
       height: 649px;
    }
    .fon img{
-      right: -77px;
-      width: 579px;
+      
       height: 537px;
    }
    .wrapper{
