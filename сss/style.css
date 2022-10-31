@@ -92,6 +92,7 @@ body{
    max-width: 1141px;
    margin: 0 auto;
    margin-bottom: 162px;
+   
 }
 
 .wrapper{
@@ -180,8 +181,8 @@ body{
 .fon img{
    position:absolute;
    bottom: 0;
-   right: -129px;
-   width: 880px;
+   left: 344px;
+   width: 61vw;
    height: 819px;
 }
 .fon{
@@ -827,6 +828,7 @@ input{
       height: 649px;
    }
    .fon img{
+      left: auto;
       right: 10px;
       width: 61vw;
       height: 537px;
